@@ -237,3 +237,38 @@ body {
     font-size: 16px;
   }
   
+  /* Responsive pour petit écran */
+@media screen and (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .centre {
+    margin-top: 0;
+  }
+
+  .searchh {
+    width: 90%;
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+
+  .boddy {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .buton {
+    justify-content: center;
+  }
+
+  .short {
+    justify-content: center;
+  }
+
+  .vid {
+    justify-content: center;
+  }
+}
