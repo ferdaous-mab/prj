@@ -9,9 +9,7 @@ body {
   /* Headerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
   .head {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 0 20px;
+  justify-content: space-between;
   }
   .par {
     display: flex;
@@ -85,8 +83,7 @@ body {
   /* Corps principalllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
   .boddy {
     display: flex;
-    gap: 0px;
-    padding: 20px;
+  gap:0px;
   }
   /* Menuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu */
   span{
@@ -271,4 +268,7 @@ body {
   .vid {
     justify-content: center;
   }
+}
+.content{
+  margin-left: -130px;
 }
