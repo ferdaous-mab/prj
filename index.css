@@ -9,12 +9,12 @@ body {
   /* Headerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
   .head {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
+    padding: 1%;
   }
   .par {
     display: flex;
     gap: 30px;
-    padding: 1%;
   }
   .rectangel {
     width: 40px;
@@ -41,7 +41,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: -30px;
   }
   .searchh {
     width: 300px;
@@ -71,7 +70,6 @@ body {
   .droite {
     display: flex;
     gap:30px;
-    margin-top: 38px;
   }
   .cree {
     padding:0px 38px;
@@ -108,27 +106,26 @@ body {
   margin-top: 8px;
   }
   .infoo{
-  display: flex;
-  gap: 60px;
-  margin-top: 50px;
-  margin-left: 22px;
+    display: flex;
+    gap:40px;
+    margin-top: 50px;
+    margin-left: 22px;
   }
   .cerclee{
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   background-color: black;
   border-radius: 50%;
   }
   .imm{
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   background-color: black;
   border-radius: 50%;
   }
   /* Publicite partttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
   .div9 {
-    width: 100%;
-    max-width: 700px;
+    margin-top: 15px;
   }
   .pubpic {
     width: 100%;
@@ -138,7 +135,7 @@ body {
   .buton {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
   }
   .a, .b, .c, .d, .e, .f, .g, .h, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s {
     background-color: rgb(30, 29, 29);
@@ -151,11 +148,10 @@ body {
   }
   /* Contentttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
   .div3, .image {
-    width: 100%;
-    max-width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: gray;
+    width: 360px;
+  height: 220px;
+  border-radius:10px;
+  background-color: gray;
   }
   .div5, .div6 {
     height: 10px;
@@ -196,24 +192,23 @@ body {
     margin:30px 0px;
   }
   .sho, .SH1 {
-    width: 900px;
-    max-width: 324px;
-    height: 400px;
-    border-radius:25px;
+    width: 259px;
+  height: 400px;
+  border-radius:25px;
   }
   .TRI{
     display: flex;
-    gap:  20px;
+    gap:  25px;
     margin-top: 25px;
   }
   .TRI2{
     display: flex;
-    gap:  20px;
+    gap:  25px;
     margin-top: 135px;
   }
   .TRI3{
     display: flex;
-    gap:  20px;
+    gap:  25px;
     margin-top: 40px;
   }
   
@@ -271,4 +266,17 @@ body {
 }
 .content{
   margin-left: -190px;
+}
+.chaine{
+  margin-left: -5px;
+}
+.ligne{
+  border:none;
+  height: 5px;
+  background-color: #ccc;
+  width: 50%;
+  margin:15px auto;
+    margin-left: auto;
+  opacity: 0.5;
+  margin-left: 8px;
 }
